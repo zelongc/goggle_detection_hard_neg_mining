@@ -1,16 +1,16 @@
 
 # goggle detetion with HOG + SVM + Hard Neg Training
 
-###Author: Zelong Cong
-###Date:   1st June, 2017
+### Author: Zelong Cong
+### Date:   1st June, 2017
 
 ## A list of dependencies:
-*       1. scikit-learn
-*	2. scikit-image
-*	3. cv2 (python wrapper for OpenCV)
-*	4. numpy
-*	5. imutils
-*	6. matplotlib
+1. scikit-learn
+2. scikit-image
+3. cv2 (python wrapper for OpenCV)
+4. numpy
+5. imutils
+6. matplotlib
 
 
 *************  What this archive contains:  **********
