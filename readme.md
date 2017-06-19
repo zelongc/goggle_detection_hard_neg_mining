@@ -93,7 +93,7 @@ Use command $ 'python3 image_resize.py -t -s -f '
 as a result of flip mode, any image resized will be flipped and stored again.
 ```
 7. To run 'Image_net_downloader.py'
-(before running this application, you have to copy all the links of your interest cateogry from ImageNet and Paste them in a 'txt' file, then change the config in python script to modified the path to txt file and the destination of output.)
+<br>before running this application, you have to copy all the links of your interest cateogry from ImageNet and Paste them in a 'txt' file, then change the config in python script to modified the path to txt file and the destination of output.</br>
 ```
 Use 'python3 Image_net_downloader.py' directly.
 
