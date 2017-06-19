@@ -20,6 +20,7 @@ in the body detection part, I used INRIA Human dataset plus some custom pics.
 <br>For goggle detector, I used 200s custom made pics.
 
 ## Hard Negative Mining
+![11](./image/xx.png)
 According t
 There are dozens of codes in Github to show re-creation of Dalal's human detection but none of them showed the most critical part- Hard Negative Training(refer to Dalal's). 
 It 
