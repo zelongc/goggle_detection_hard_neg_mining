@@ -4,7 +4,7 @@
 ### Author: Zelong Cong
 ### Date:   1st June, 2017
 
-## A list of dependencies:
+## Evironments:
 
 1. OpenCV Module 3.2.0 (latest version)
    (This is a possible guide to install the module, though it not always works for some reasons...
@@ -42,8 +42,6 @@
 	'tool/test_custom_detector.py'  ---- The application used to experiment the goggle detection.
 
 2. The models for test locates in the directory 'models'
-
-
 
 ********************* How to use the applications *******************
 
