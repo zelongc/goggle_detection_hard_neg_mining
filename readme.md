@@ -1,8 +1,7 @@
 
 # goggle detetion with HOG + SVM + Hard Neg Training
 
-### Author: Zelong Cong   
-###         University of Melbourne
+### Author: Zelong Cong   University of Melbonrne
 ### Date:   1st June, 2017
 
 ## Evironments:
