@@ -1,8 +1,9 @@
 
-# goggle detetion with HOG + SVM + Hard Neg Training
-
-### Author: Zelong Cong   University of Melbonrne
+# Goggle detetion with HOG + SVM + Hard Neg Training
+### Author: Zelong Cong ,University of Melbonrne
 ### Date:   1st June, 2017
+## overview
+This is an application built to detect human and identify whether he/she is wearing a pair of goggles from the image. Two models, for Human and goggle, were used in the application. I tested the Haar and the HOG descriptor using Adaboost and LinearSVM respectively, plus the model comes with Opencv3.2.0 
 
 ## Evironments:
 
@@ -11,6 +12,17 @@
      http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/)
 
 2. Python 3.6.2
+
+## Datasets:
+<br>For Humand Detection<br>
+in the body detection part, I used INRIA Human dataset plus some custom pics.
+<br>In the face detection part, I used AT&T Cambridge Human Face dataset.
+<br>For goggle detector, I used 200s custom made pics.
+
+## Hard Negative Mining
+According t
+There are dozens of codes in Github to show re-creation of Dalal's human detection but none of them showed the most critical part- Hard Negative Training(refer to Dalal's). 
+It 
 
 ## A list of required packages:
 
