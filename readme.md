@@ -5,13 +5,21 @@
 ### Date:   1st June, 2017
 
 ## A list of dependencies:
+
+1. OpenCV Module 3.2.0 (latest version)
+   (This is a possible guide to install the module, though it not always works for some reasons...
+     http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/)
+
+2. Python 3.6.2
+
+## A list of required packages:
+
 1. scikit-learn
 2. scikit-image
 3. cv2 (python wrapper for OpenCV)
 4. numpy
 5. imutils
 6. matplotlib
-
 
 *************  What this archive contains:  **********
 
@@ -25,7 +33,7 @@
 
 	'hard_neg_mining.py'  ---- A very important application used to apply hard negative training process.
 
-	'goggle_detection_opencv.py'    ---- The most siginificant application achieved our goal, to detect human and identify whether he is wearing a pair of goggle with OpenCV detector.
+	'detection.py'    ---- The most siginificant application achieved our goal, to detect human and identify whether he is wearing a pair of goggle with OpenCV detector.
 
 	'tool/Image_net_downloader.py'  ---- The application used to download images to local machine from ImageNet
 
@@ -35,30 +43,11 @@
 
 2. The models for test locates in the directory 'models'
 
-3. 'test_image' contains 7 test image for testing the application.
 
-
-***********  You need these things to run applications **********
-
-OpenCV Module 3.2.0 (latest version)
-(This is a possible guide to install the module, though it not always works for some reasons...
-     http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/)
-
-Python 3.6.2
-
-(All the experiments are done in MacOS Sierra, 10.12.4)
-
-A list of python external packages:
-	1. scikit-learn
-	2. scikit-image
-	3. cv2 (python wrapper for OpenCV)
-	4. numpy
-	5. imutils
-	6. matplotlib
 
 ********************* How to use the applications *******************
 
-IMPORTANT: It is better to use absolute path to run applicatioin.
+IMPORTANT: better to use absolute path to run applicatioin.
 
 1. To use the 'goggle_detection_opencv.py' 
 
@@ -112,5 +101,3 @@ IMPORTANT: It is better to use absolute path to run applicatioin.
 	-f is the path to facial detector
 	-g is the path to the goggle detctor.
 
-Thanks a lot for reviewing my works in this project. Most of the efforts in this project are in the
-varies experiments and they were discussed in the report.
